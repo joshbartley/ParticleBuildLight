@@ -16,7 +16,7 @@ Supported colors Green Red Blue Yellow
 
 Replace with your DEVICE_ID and ACCESS_TOKEN from the particle build system. 
 
-POST https://api.particle.io/v1/devices/{DEVICE_ID}/circle
-Content-Type: application/x-www-form-urlencoded
-Body:
-access_token={ACCESS_TOKEN}&arg=green
+POST https://api.particle.io/v1/devices/{DEVICE_ID}/circle  
+Content-Type: application/x-www-form-urlencoded  
+Body:  
+access_token={ACCESS_TOKEN}&arg=green  
